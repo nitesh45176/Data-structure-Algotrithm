@@ -1,6 +1,6 @@
 // LeetCode 162:Find peak element
 // Approach: Binary search
-// Time: O(logn), Space: O(1)
+// Time complexity: O(logn), Space: O(1)
 
 class Solution {
 public:
