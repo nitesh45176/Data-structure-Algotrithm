@@ -10,7 +10,7 @@ void reverse(string& str, int i, int j){
 
     swap(str[i++], str[j--]);
 
-  //recursive call
+  //Recursive call
     reverse(str, i , j);
     
 }
