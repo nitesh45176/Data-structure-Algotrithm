@@ -1,21 +1,23 @@
 // Leetcode 206 : Reverse the Linked List
-// Approach : Recursion
-// Time and sppace complexity:  O(N) , O(N)
+// Approach : Traversing
+// Time and sppace complexity:  O(N) , O(1)
+
 
 
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-       //Base case
-       if(head == NULL || head->next==NULL){
-         return head;
-       }
+       ListNode* prev = NULL;
+        ListNode* curr = head;
 
-      //recursive call
-       ListNode* newHead = reverseList(head->next);
-       ListNode* front = head->next;
-       front->next = head;
-       head ->next = NULL;
-       return newHead;
+        while(curr != NULL){
+            ListNode* temp = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr =temp;
+        }
+        return prev;
     }
 };
+
+
