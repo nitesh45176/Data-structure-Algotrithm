@@ -6,18 +6,25 @@
 
 
 class Solution {
+private:
+    void reverse(ListNode* &head, ListNode* curr, ListNode* prev){
+        //base case
+        if(curr == NULL){
+            head = prev;
+            return;
+        }
+
+        reverse(head, curr->next, curr);
+        curr->next = prev;
+    }
 public:
     ListNode* reverseList(ListNode* head) {
-       //Base case
-       if(head == NULL || head->next==NULL){
-         return head;
-       }
-
-       ListNode* newHead = reverseList(head->next);
-       ListNode* front = head->next;
-       front->next = head;
-       head ->next = NULL;
-       return newHead;
-    }
+       ListNode* curr = head;
+       ListNode* prev = NULL;
+       reverse(head, curr, prev);
+       return head;
 };
+};
+
+
 
