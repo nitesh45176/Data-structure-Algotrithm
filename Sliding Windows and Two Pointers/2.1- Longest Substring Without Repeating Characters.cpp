@@ -1,6 +1,6 @@
 
 // Leetcode 3 :  Longest Substring Without Repeating Characters
-// Approach : Hashmaps
+// Approach : Hashing
 // TC and SC : O(n*n) and O(256)
 
 
