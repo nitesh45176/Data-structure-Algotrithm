@@ -1,7 +1,7 @@
 
 // Leetcode 2942:  Find words containing character
 // Approach : Traversing
-// TC, SC:   O(n) , O(n)
+// TC, SC :   O(n) , O(n)
 
 
 class Solution {
@@ -15,4 +15,4 @@ public:
         }
         return ans;
     }
-};
+}
