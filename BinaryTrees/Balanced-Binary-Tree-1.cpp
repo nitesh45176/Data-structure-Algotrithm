@@ -1,7 +1,7 @@
 
 // leetcode 110: Balanced Binary tree
 // Approach: Recursion
-// TC & SC: 
+// TC & SC: O(n*n) , O(n)
 
 /**
  * Definition for a binary tree node.
