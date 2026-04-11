@@ -1,6 +1,6 @@
 
 // Leetcode 99:  Recover Binary Search Tree
-//Approach : Inorder traversal
+//Approach : Inorder traversal - Optimised
 // TC & SC : O(n) , O(1)
 
 
