@@ -1,3 +1,2 @@
-# leetcode-solutions
-
+# DSA
 Daily LeetCode practice in C++
