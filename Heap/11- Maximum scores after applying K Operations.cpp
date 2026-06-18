@@ -1,4 +1,6 @@
-
+// Leetcode 2530 : Maximum scores after Applying K Operations
+// Approach :- Heap
+// TC, SC :- O(n + klogn), O(n)
 
 
 class Solution {
