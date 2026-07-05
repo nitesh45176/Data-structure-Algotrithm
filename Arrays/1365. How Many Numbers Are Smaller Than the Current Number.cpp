@@ -1,6 +1,6 @@
 
 
-class Solution {
+class Solution{
 public:
     vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
         vector<int> cnt ;
