@@ -1,2 +1,2 @@
 # DSA
-Daily Leetcode Practice in C++
+Daily LeetCode Practice in C++
