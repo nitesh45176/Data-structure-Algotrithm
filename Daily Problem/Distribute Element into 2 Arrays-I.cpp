@@ -182,6 +182,7 @@ int k = 0;
 These variables are never used, so they can be removed.
 
 Also, the final result can be constructed more cleanly using insert():
+    
 
 class Solution {
 public:
@@ -217,6 +218,8 @@ public:
         return result;
     }
 };
+
+
 Takeaway
 
 The main thing to remember for this problem:
