@@ -1,7 +1,7 @@
 
 Rectangle Overlap - Visualization:
 
-[Open explanation image](../images/rectangle-overlap.png)
+[Open explanation image](/rectangle-overlap.png)
 
 
 class Solution {
