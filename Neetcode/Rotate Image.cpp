@@ -1,10 +1,9 @@
 Rotate Image — LeetCode 48
+    
 1. Problem
-
 Given an n × n matrix, rotate it 90° clockwise.
 
 Example:
-
 1 2 3
 4 5 6
 7 8 9
